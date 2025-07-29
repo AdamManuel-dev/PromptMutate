@@ -352,9 +352,9 @@ async function generateWithOptimizedPrompt(task: string) {
 │          (CLI, Web Dashboard, REST API, GraphQL)            │
 └─────────────────────────────┬───────────────────────────────┘
                               │
-┌─────────────────────────────▼───────────────────────────────┐
-│                  Orchestration Engine                        │
-│         (Experiment Management, Task Distribution)           │
+┌─────────────────────────────▼──────────────────────────────┐
+│                  Orchestration Engine                      │
+│         (Experiment Management, Task Distribution)         │
 ├─────────────┬────────────────┬────────────────┬────────────┤
 │   Prompt    │   Mutation     │   Evaluation   │  Learning  │
 │  Manager    │   Engine       │   Engine       │  Engine    │
@@ -365,14 +365,14 @@ async function generateWithOptimizedPrompt(task: string) {
 └─────────────┴────────────────┴────────────────┴────────────┘
                               │
 ┌─────────────────────────────▼───────────────────────────────┐
-│                    Integration Layer                         │
-├──────────────┬───────────────┬───────────────┬─────────────┤
-│  Claude API  │  Git Analysis │  CI/CD Hooks  │   MCP       │
-│              │               │  (GitHub/GL)   │  Protocol   │
-└──────────────┴───────────────┴───────────────┴─────────────┘
+│                    Integration Layer                        │
+├──────────────┬───────────────┬───────────────┬──────────────┤
+│  Claude API  │  Git Analysis │  CI/CD Hooks  │   MCP        │
+│              │               │  (GitHub/GL)  │   Protocol   │
+└──────────────┴───────────────┴───────────────┴──────────────┘
                               │
-┌─────────────────────────────▼───────────────────────────────┐
-│                      Data Layer                              │
+┌─────────────────────────────▼──────────────────────────────┐
+│                      Data Layer                            │
 ├──────────────┬───────────────┬───────────────┬─────────────┤
 │  PostgreSQL  │    Redis      │  ChromaDB     │   S3        │
 │  (Metadata)  │   (Cache)     │ (Embeddings)  │ (Artifacts) │
