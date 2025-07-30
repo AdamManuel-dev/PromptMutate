@@ -7,7 +7,7 @@
 
 An intelligent prompt optimization system that automatically improves AI code generation through mutation testing, deterministic scoring, and adaptive learning. PromptMutate transforms manual prompt engineering into a data-driven, continuous optimization process.
 
-This is a PoC/MVP for SyntaxLabs
+This is a PoC/MVP for [SyntaxLabs](https://github.com/AdamManuel-dev/SyntaxLab)
 
 ## 🚀 Key Features
 
